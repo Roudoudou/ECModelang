@@ -18,6 +18,6 @@ REM Choose Visual Studio, try the non-free version first ...
 IF EXIST "%VSINSTALLDIR%\Common7\IDE\devenv.exe" (
     "%VSINSTALLDIR%\Common7\IDE\devenv.exe" ..\local-tmp\visual\OpenViBE.sln
 ) else (
-    "%VSINSTALLDIR%\Common7\IDE\VCExpress.exe" ..\local-tmp\visual\OpenViBE.sln
+    "D:\Qt\Tools\QtCreator\bin\qtcreator.exe" ..\local-tmp\visual\OpenViBE.sln
 )
 
